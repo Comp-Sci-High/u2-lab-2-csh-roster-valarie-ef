@@ -42,7 +42,7 @@
 
 
 // ----------------------------------------------------------
-// 💫 Extra Credit [2 pts]
+// Part 4 [2 pts]
 // ----------------------------------------------------------
 // Create a new array named cshRosters that stores all class rosters in this order:
 // 0: csRoster
