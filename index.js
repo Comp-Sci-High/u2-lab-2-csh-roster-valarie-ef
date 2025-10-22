@@ -10,10 +10,11 @@
 // Create an array for each class with the following names:
 // csRoster, mathRoster, elaRoster, ssRoster, electivesRoster (5 arrays total)
 // Each should contain 3 unique student names (you can make them up or use classmates)
-
-
-
-
+let csRoster=["Gleni","Murphy","Jeron"];
+let mathRoster=["Michelle", "Jessica", "Valarie"];
+let elaRoster=["Jenni","Jeaden", "Angie"];
+let ssRoster=["Issac","Zahra", "Tokeyo"];
+let electivesRoster=["Janiya", "Dar", "David"];
 
 // ----------------------------------------------------------
 // Part 2 [2 pts]
@@ -25,17 +26,18 @@
 // Add Peach → ELA
 // Add Laila → Social Studies
 // Add Jayden → Electives
-
-
-
-
-
+csRoster.push("JP");
+mathRoster.push("Arnold");
+elaRoster.push("Peach");
+ssRoster.push("Laila");
+electivesRoster.push("Jayden");
 
 // ----------------------------------------------------------
 // Part 3 [2 pts]
 // ----------------------------------------------------------
 // Jayden has unenrolled from CSH.
 // Use an array method to remove Jayden from the electivesRoster.
+
 
 
 
@@ -51,13 +53,13 @@
 // 3: ssRoster
 // 4: electivesRoster
 
-
+let cshRosters=["csRoster", "mathRoster", "elaRoster", "ssRoster", "electivesRoster"];
 
 
 
 // Using ONLY cshRosters and list indexing, print the name of the
 // second student in the ssRoster (index 3 in cshRosters)
-
+ ssRoster[1];
 
 
 
